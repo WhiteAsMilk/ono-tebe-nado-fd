@@ -1,1 +1,1 @@
-https://github.com/WhiteAsMilk/ono-tebe-nado
+https://github.com/WhiteAsMilk/ono-tebe-nado-fd
