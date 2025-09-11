@@ -56,17 +56,17 @@
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">сделать ставку</button>
+          <button type="button" class="bet-button">сделать ставку</button>
         </div>
       </section>
 
       <section class="lots">
         <p class="lots__heading">лоты</p>
         <ul class="lots__card-list">
-          <li class="lots__card-list-item card_type_film">
-            <div class="overlay"></div>
+          <li class="lots__card-list-item">
             <a href="#" class="card-link">
-              <article class="card">
+              <article class="card card_type_film">
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -78,10 +78,11 @@
               </article>
             </a>
           </li>
-          <li class="lots__card-list-item card_type_book">
-            <div class="overlay"></div>
+          <li class="lots__card-list-item">
+            
             <a href="#" class="card-link">
-              <article class="card">
+              <article class="card card_type_book">
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -96,10 +97,10 @@
               </article>
             </a>
           </li>
-          <li class="lots__card-list-item card_type_picture">
-            <div class="overlay"></div>
+          <li class="lots__card-list-item">
             <a href="#" class="card-link">
-              <article class="card">
+              <article class="card card_type_picture">
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -155,7 +156,9 @@
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a href="#" class="footer__menu-link_active">главная</a>
+            <a href="#" class="footer__menu-link footer__menu-link_active"
+              >главная</a
+            >
           </li>
           <li class="footer__menu-list-item">
             <a href="#" class="footer__menu-link">посмотреть лоты</a>
@@ -168,7 +171,7 @@
 
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link"
+          <a href="#" target="_blank" class="footer__social-link"
             ><img
               src="./images/yt.svg"
               alt="иконка YouTube"
@@ -176,7 +179,7 @@
           /></a>
         </li>
         <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link"
+          <a href="#" target="_blank" class="footer__social-link"
             ><img
               src="./images/vk.svg"
               alt="иконка VK"
@@ -184,7 +187,7 @@
           /></a>
         </li>
         <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link"
+          <a href="#" target="_blank" class="footer__social-link"
             ><img
               src="./images/pinterest.svg"
               alt="иконка Pinterest"

@@ -42,7 +42,7 @@
 .address {
   max-width: 240px;
   font-style: normal;
-  line-height: 24px;
+  line-height: 1.35em;
   font-size: 18px;
   color: #000;
   text-decoration: none;
@@ -163,7 +163,7 @@
 
 .lots__card-list-item {
   position: relative;
-  height: 596px;
+  min-height: 596px;
   background-size: cover;
   background-position: center;
 }
@@ -213,6 +213,14 @@
   background-image: url("../images/card-lot-03.jpg");
 }
 
+.card_type_film,
+.card_type_book,
+.card_type_picture {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .lots__look-more-link {
   display: inline-block;
   margin-top: 30px;
@@ -240,7 +248,7 @@
   justify-content: center;
   align-items: center;
   justify-self: center;
-  margin-top: 37px;
+  margin-top: 33px;
 }
 
 .about__logo-image {
@@ -273,7 +281,7 @@
 
 /* footer */
 .footer {
-  margin: 180px 50px 0 50px;
+  margin: 175px 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
@@ -283,7 +291,7 @@
 /* адрес */
 .footer-address {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.35em;
   display: flex;
   flex-direction: column;
   font-style: normal;
@@ -292,7 +300,7 @@
 .footer-address_link {
   color: black;
   text-decoration: underline;
-  line-height: 24.3px;
+  line-height: 1.35em;
 }
 
 /* меню */
